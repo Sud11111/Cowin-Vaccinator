@@ -1,8 +1,8 @@
 import react from "react";
 import axios from "axios";
-import MobileNumber from "./components/mobnum";
-import Beneficiary from "./components/benificiary";
-import OtpAuthentication from "./components/otpauth";
+import MobileNumber from "../components/mobnum";
+import Beneficiary from "../components/benificiary";
+import OtpAuthentication from "../components/otpauth";
 import { sha256 } from "js-sha256";
 
 export default class Benefeciaries extends react.Component {
